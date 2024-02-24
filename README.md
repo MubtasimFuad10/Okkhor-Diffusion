@@ -6,8 +6,8 @@ Pretrained models are uploaded to [huggingface](https://huggingface.co/models?ot
 | Pretrained Model                   | Hugging Face Link                                      |
 | ---------------------------------- | ------------------------------------------------------- |
 | Okkhor-Diffusion-Banglalekha       | [ahmedfaiyaz/OkkhorDiffusion](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion) |
-| Okkhor-Diffusion-CmaterDB          | [Link not provided]                                   |
-| Okkhor-Diffusion-Ekushey           | [Link not provided]                                   |
+| Okkhor-Diffusion-CmaterDB          | Coming soon                                |
+| Okkhor-Diffusion-Ekushey           | Coming soon                                   |
 
 
 # Inference
