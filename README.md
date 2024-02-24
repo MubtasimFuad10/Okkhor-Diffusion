@@ -2,10 +2,12 @@
 Code related to the paper **Okkhor-Diffusion: Class Guided Generation of Bangla Isolated Handwritten Characters using Denoising Diffusion Probabilistic Model (DDPM)**.
 
 Pretrained models are uploaded to [huggingface](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion).
-There are three pretrained models:<br>
-[Okkhor-Diffusion-Banglalekha](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion)<br>
-[Okkhor-Diffusion-CmaterDB]()<br>
-[Okkhor-Diffusion-Ekushey]()<br>
+| Pretrained Model                   | Hugging Face Link                                      |
+| ---------------------------------- | ------------------------------------------------------- |
+| Okkhor-Diffusion-Banglalekha       | [ahmedfaiyaz/OkkhorDiffusion](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion) |
+| Okkhor-Diffusion-CmaterDB          | [Link not provided]                                   |
+| Okkhor-Diffusion-Ekushey           | [Link not provided]                                   |
+
 
 # Inference
 
