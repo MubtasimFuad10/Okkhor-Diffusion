@@ -3,9 +3,9 @@ Code related to the paper **Okkhor-Diffusion: Class Guided Generation of Bangla 
 
 Pretrained models are uploaded to [huggingface](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion).
 There are three pretrained models:<br>
-[Okkhor-Diffusion-Banglalekha-64x64]()<br>
-[Okkhor-Diffusion-CmaterDB-64x64]()<br>
-[Okkhor-Diffusion-Ekushey-64x64]()<br>
+[Okkhor-Diffusion-Banglalekha](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion)<br>
+[Okkhor-Diffusion-CmaterDB]()<br>
+[Okkhor-Diffusion-Ekushey]()<br>
 
 # Inference
 
