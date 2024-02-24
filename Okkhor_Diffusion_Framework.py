@@ -10,7 +10,7 @@ justify-content:center
 }
 
 """
-pipeline = DiffusionPipeline.from_pretrained("gr33nr1ng3r/OkkhorDiffusion",custom_pipeline="gr33nr1ng3r/OkkhorDiffusion",embedding=torch.float16)
+pipeline = DiffusionPipeline.from_pretrained("ahmedfaiyaz/OkkhorDiffusion",custom_pipeline="ahmedfaiyaz/OkkhorDiffusion",embedding=torch.float16)
 character_mappings = {
     'অ': 1,
     'আ': 2,
