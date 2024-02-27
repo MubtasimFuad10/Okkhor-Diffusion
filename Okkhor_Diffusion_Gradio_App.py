@@ -452,7 +452,7 @@ character_mappings_model_wise={
 def generate(modelname:str,input_text:str,batch_size:int,inference_steps:int):
     batch_size=int(batch_size)
     inference_steps=int(inference_steps)
-    print(f"Generating image with label:{character_mappings[input_text]} batch size:{batch_size}")
+    print(f"Generating image with label:{character_mappings_model_wise[current_model][input_text]} batch size:{batch_size}")
     label=int(character_mappings_model_wise[current_model][input_text])
     pipeline.embedding=torch.tensor([label])
     generate_image=pipeline(batch_size=batch_size,num_inference_steps=inference_steps).images
