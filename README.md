@@ -20,5 +20,26 @@ pipeline = DiffusionPipeline.from_pretrained("ahmedfaiyaz/OkkhorDiffusion",custo
 pipeline.to("cuda")
 pipeline.embedding=torch.tensor([10-1]) # 'ও': 9
 pipeline(batch_size=1,num_inference_steps=1000).images[0]
+# Citation
+```
+@ARTICLE{10445466,
 
+  author={Fuad, Md Mubtasim and Faiyaz, A. and Arnob, Noor Mairukh Khan and Mridha, M.F. and Saha, Aloke Kumar and Aung, Zeyar},
+
+  journal={IEEE Access}, 
+
+  title={Okkhor-Diffusion: Class Guided Generation of Bangla Isolated Handwritten Characters using Denoising Diffusion Probabilistic Model (DDPM)}, 
+
+  year={2024},
+
+  volume={},
+
+  number={},
+
+  pages={1-1},
+
+  keywords={Deep learning;Handwritten character generation;Generative Model;Denoising Diffusion Probabilistic Model},
+
+  doi={10.1109/ACCESS.2024.3370674}}
+```
 
