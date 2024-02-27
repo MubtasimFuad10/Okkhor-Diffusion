@@ -6,8 +6,8 @@ Pretrained models are uploaded to [huggingface](https://huggingface.co/models?ot
 | Pretrained Model                   | Hugging Face Link                                      |                          API and web frontend          |
 | ---------------------------------- | ------------------------------------------------------- |-------------------------------------------------------|
 | Okkhor-Diffusion-Banglalekha       | [ahmedfaiyaz/OkkhorDiffusion](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion) | [OkkhorDiffusion-Space](https://huggingface.co/spaces/ahmedfaiyaz/OkkhorDiffusion) |
-| Okkhor-Diffusion-CMATERdb          | Coming soon                                |        
-| Okkhor-Diffusion-Ekush             | Coming soon                                   |
+| Okkhor-Diffusion-CMATERdb          | [ahmedfaiyaz/OkkhorDiffusion-CMATERdb](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion-CMATERdb)                                |        
+| Okkhor-Diffusion-Ekush             | [ahmedfaiyaz/OkkhorDiffusion-Ekush](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion-Ekush)                                   |
 
 
 # Inference
