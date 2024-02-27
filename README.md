@@ -20,6 +20,7 @@ pipeline = DiffusionPipeline.from_pretrained("ahmedfaiyaz/OkkhorDiffusion",custo
 pipeline.to("cuda")
 pipeline.embedding=torch.tensor([10-1]) # 'ও': 9
 pipeline(batch_size=1,num_inference_steps=1000).images[0]
+```
 # Citation
 ```
 @ARTICLE{10445466,
