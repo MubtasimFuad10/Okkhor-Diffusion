@@ -460,7 +460,7 @@ def switch_pipeline(modelname:str):
     global current_model
     current_model=modelname
     return f"""
-            <div style="text-align: center; margin: 0 auto;">Selected model <a href="https://huggingface.com/{modelname}">{modelname}</a></div>
+            <div style="text-align: center; margin: 0 auto;">Selected model <a href="https://huggingface.co/{modelname}">{modelname}</a></div>
             """,gr.update(choices=character_mappings_model_wise[modelname])
 
 
@@ -475,7 +475,7 @@ with gr.Blocks(css=css,elem_id="panel") as od_app:
 """)
     #input panel 
     choosen_model=gr.HTML(f"""
-                          <div style="text-align: center; margin: 0 auto;">Selected model <a href="https://huggingface.com/{current_model}">{current_model}</a></div>
+                          <div style="text-align: center; margin: 0 auto;">Selected model <a href="https://huggingface.co/{current_model}">{current_model}</a></div>
                           """)
     with gr.Row(elem_id="input-panel"):
 
