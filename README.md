@@ -10,7 +10,7 @@ Pretrained models are uploaded to [huggingface](https://huggingface.co/models?ot
 | Okkhor-Diffusion-Ekush             | [ahmedfaiyaz/OkkhorDiffusion-Ekush](https://huggingface.co/ahmedfaiyaz/OkkhorDiffusion-Ekush)                                   |
 
 
-# Inference
+# Generating Samples
 
 ```py
 from diffusers import DiffusionPipeline
