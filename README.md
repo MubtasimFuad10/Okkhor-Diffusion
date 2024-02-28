@@ -14,12 +14,17 @@ Pretrained models are uploaded to [huggingface](https://huggingface.co/models?ot
 
 ```py
 from diffusers import DiffusionPipeline
-from typing import List, Optional, Tuple, Union
 import torch
-pipeline = DiffusionPipeline.from_pretrained("ahmedfaiyaz/OkkhorDiffusion",custom_pipeline="ahmedfaiyaz/OkkhorDiffusion",embedding=torch.float16)
-pipeline.to("cuda")
-pipeline.embedding=torch.tensor([10-1]) # 'ও': 9
-pipeline(batch_size=1,num_inference_steps=1000).images[0]
+device="cuda"
+pipeline = DiffusionPipeline.from_pretrained(
+              "ahmedfaiyaz/OkkhorDiffusion",
+              custom_pipeline="ahmedfaiyaz/OkkhorDiffusion",
+              embedding=torch.int16
+            )
+pipeline.to(device)
+pipeline.embedding=torch.tensor([9],device=device) # 'ও': 9
+pipeline(batch_size=1,num_inference_steps=100).images[0]
+
 ```
 # Citation
 ```
