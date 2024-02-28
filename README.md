@@ -11,7 +11,7 @@ Pretrained models are uploaded to [huggingface](https://huggingface.co/models?ot
 
 
 # Generating Samples
-
+You can try out this [Colab Notebook](https://colab.research.google.com/drive/1rXafKwmYOwh5YOJD9EEPn2sDv0faUN6d?usp=sharing).
 ```py
 from diffusers import DiffusionPipeline
 import torch
