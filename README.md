@@ -26,6 +26,16 @@ pipeline.embedding=torch.tensor([9],device=device) # 'ও': 9
 pipeline(batch_size=1,num_inference_steps=100).images[0]
 
 ```
+# Run the App
+install requirements
+```
+pip install -r requirments.txt
+```
+Run
+```
+python Okkhor_Diffusion_Gradio_App.py
+``` 
+
 # Citation
 ```
 @ARTICLE{10445466,
