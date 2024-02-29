@@ -27,15 +27,15 @@ pipeline(batch_size=1,num_inference_steps=100).images[0]
 
 ```
 # Run the App
-install requirements
+Install requirements
 ```
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 Run
 ```
 python Okkhor_Diffusion_Gradio_App.py
 ``` 
-
+This will automatically download all the models and run a web app with api endpoints in the local machine.This app is also hosted here at [Huggingface space](https://huggingface.co/spaces/ahmedfaiyaz/OkkhorDiffusion)
 # Citation
 ```
 @ARTICLE{10445466,
