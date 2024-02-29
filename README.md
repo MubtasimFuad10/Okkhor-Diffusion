@@ -35,7 +35,7 @@ Run
 ```
 python Okkhor_Diffusion_Gradio_App.py
 ``` 
-This will automatically download all the models and run a web app with api endpoints in the local machine.This app is also hosted here at [Huggingface space](https://huggingface.co/spaces/ahmedfaiyaz/OkkhorDiffusion)
+This will automatically download all the models and run a web app with api endpoints in the local machine.This app is also hosted here at [Huggingface spaces.](https://huggingface.co/spaces/ahmedfaiyaz/OkkhorDiffusion)
 # Citation
 ```
 @ARTICLE{10445466,
