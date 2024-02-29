@@ -4,3 +4,4 @@ safetensors
 accelerate
 huggingface
 transformers
+gradio
