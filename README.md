@@ -39,23 +39,14 @@ This will automatically download all the models and run a web app with api endpo
 # Citation
 ```
 @ARTICLE{10445466,
-
-  author={Fuad, Md Mubtasim and Faiyaz, A. and Arnob, Noor Mairukh Khan and Mridha, M.F. and Saha, Aloke Kumar and Aung, Zeyar},
-
+  author={Fuad, Md. Mubtasim and Faiyaz, A. and Arnob, Noor Mairukh Khan and Mridha, M. F. and Saha, Aloke Kumar and Aung, Zeyar},
   journal={IEEE Access}, 
-
-  title={Okkhor-Diffusion: Class Guided Generation of Bangla Isolated Handwritten Characters using Denoising Diffusion Probabilistic Model (DDPM)}, 
-
+  title={Okkhor-Diffusion: Class Guided Generation of Bangla Isolated Handwritten Characters Using Denoising Diffusion Probabilistic Model (DDPM)}, 
   year={2024},
-
-  volume={},
-
+  volume={12},
   number={},
-
-  pages={1-1},
-
-  keywords={Deep learning;Handwritten character generation;Generative Model;Denoising Diffusion Probabilistic Model},
-
+  pages={37521-37539},
+  keywords={Data models;Shape measurement;Probabilistic logic;Generative adversarial networks;Character generation;Noise reduction;Mathematical models;Deep learning;Handwriting recognition;Character generation;Deep learning;handwritten character generation;generative model;denoising diffusion probabilistic model},
   doi={10.1109/ACCESS.2024.3370674}}
 ```
 
